@@ -1,0 +1,24 @@
+html{
+    font-size: 62.5%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.begin{
+    background-color: #333;
+    color:#080;
+}
+.begin span{
+    color: #ddd;   
+}
+.medium{
+    background-color: #080;
+    color: #222;
+}
+.medium__section{
+    background-color: #000;
+    color: #ad5;
+}
+.medium__section > article {
+    background-color: #999;
+    color: #022;
+}
+
