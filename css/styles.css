@@ -5,6 +5,8 @@ html{
 .begin{
     background-color: #333;
     color:#080;
+    width:100vw;
+    height:20vh;
 }
 .begin span{
     color: #ddd;   
@@ -12,6 +14,8 @@ html{
 .medium{
     background-color: #080;
     color: #ddd;
+    width:100vw;
+    height: 50vh;
 }
 .medium__section{
     background-color: #000;
@@ -20,5 +24,8 @@ html{
 .medium__section > article {
     background-color: #999;
     color: #022;
+}
+.final{
+    background-color: #777;
 }
 
