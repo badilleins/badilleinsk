@@ -12,9 +12,16 @@ html{
     color:#080;
     width:100vw;
     height:20vh;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem;
+}
+.begin h1{
+    font-size: 6rem;
 }
 .begin span{
-    color: #ddd;   
+    color: #ddd;
+    font-size: 2rem;   
 }
 .medium{
     background-color: #080;
