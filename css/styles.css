@@ -20,11 +20,17 @@ html{
     background-color: #080;
     color: #ddd;
     width:100vw;
-    height: 50vh;
+    height: 70vh;
+}
+.medium h2{
+    text-align: center;
+    justify-content: center;
+    padding: 1rem;
 }
 .medium__section{
     background-color: #000;
     color: #ad5;
+    padding:1rem
 }
 .medium__section > article {
     background-color: #999;
