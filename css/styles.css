@@ -12,9 +12,19 @@ html{
     color:#080;
     width:100vw;
     height:20vh;
+    justify-content: center;
+    text-align: center;
+    padding: .5rem;
+}
+.begin h1{
+    font-size: 6rem;
+text-shadow: 1px 2px 2px #0d0;
+    margin: 1rem 0 1rem;
 }
 .begin span{
-    color: #ddd;   
+    color: #ddd;
+    font-size: 2rem;   
+    margin-bottom: 2rem;
 }
 .medium{
     background-color: #080;
