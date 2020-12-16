@@ -17,18 +17,18 @@ html{
     color: #ddd;   
 }
 .medium{
-    background-color: #080;
-    color: #ddd;
+     background-color: #000;
+    color: #ad5;
     width:100vw;
     height: 50vh;
 }
 .medium__section{
-    background-color: #000;
-    color: #ad5;
+    background-color:transparent;
+    color: #aa5;
 }
 .medium__section > article {
-    background-color: #999;
-    color: #022;
+    background-color: #fff;
+    color: #ad5;
 }
 .final{
     background-color: #777;
