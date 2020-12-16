@@ -27,8 +27,8 @@ text-shadow: 1px 2px 2px #0d0;
     margin-bottom: 2rem;
 }
 .medium{
-    background-color: #080;
-    color: #ddd;
+    background-color: #000;
+    color: #ad5;
     width:100vw;
     height: 70vh;
 }
@@ -38,8 +38,8 @@ text-shadow: 1px 2px 2px #0d0;
     padding: 1rem;
 }
 .medium__section{
-    background-color: #000;
-    color: #ad5;
+    background-color: #080;
+    color: #fff; 
     padding:1rem
 }
 .medium__section > article {
