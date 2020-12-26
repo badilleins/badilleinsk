@@ -24,7 +24,8 @@ html{
 }
 .begin span{
     color: #ddd;
-    font-size: 2.2rem;   
+    font-size: 2.2rem;
+    text-decoration: underline 5px; 
 }
 .medium{
     background-color: #000;
