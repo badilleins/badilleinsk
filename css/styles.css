@@ -10,44 +10,53 @@ html{
 .begin{
     background-color: #333;
     color:#080;
-    min-width:100vw;
+    min-width:100%;
     min-height:20vh;
     justify-content: center;
     text-align: center;
     padding: .5rem;
+    display:flex;
+    flex-direction: column;
 }
 .begin h1{
     font-size: 6rem;
-text-shadow: 1px 2px 2px #0d0;
-    margin: 1rem 0 1rem;
+    text-shadow: 1px 2px 2px #0d0;
 }
 .begin span{
     color: #ddd;
-    font-size: 2rem;   
-    margin-bottom: 2rem;
+    font-size: 2.2rem;   
 }
 .medium{
     background-color: #000;
     color: #ad5;
-    min-width:100vw;
-    min-height: 70vh;
+    min-width:100%;
+    min-height:70vh;
+    display:flex;
+    padding:1rem;
+    flex-direction: column;
 }
 .medium h2{
     text-align: center;
     justify-content: center;
     padding: 1rem;
+    font-size: 2rem;
 }
 .medium__section{
     background-color:transparent;
     color: #aa5;
+    display:flex;
+    display:flex;
+    flex-direction:column;
 }
 .medium__section > article {
-    background-color: #fff;
-    color: #ad5;
+    background-color: #540;
+    color: #000;
+    font-size: 1.5rem;
 }
 .final{
     background-color: #777;
-    min-width: 100vw;
+    min-width: 100%;
     min-height: 15vh;
+    display: flex;
 }
 
