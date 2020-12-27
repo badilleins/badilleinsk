@@ -13,7 +13,7 @@ html{
     min-width:100%;
     min-height:20vh;
     justify-content: center;
-    text-align: center;
+    align-items: center;
     padding: .5rem;
     display:flex;
     flex-direction: column;
@@ -37,7 +37,7 @@ html{
     flex-direction: column;
 }
 .medium h2{
-    text-align: center;
+    align-items: center;
     justify-content: center;
     padding: 1rem;
     font-size: 2rem;
@@ -46,20 +46,29 @@ html{
     background-color:transparent;
     color: #aa5;
     display:flex;
-    display:flex;
     flex-direction:column;
+    min-width: 100%;
+    min-height: 50vh;
 }
 .medium__section > article {
     background-color: #540;
     color: #000;
     font-size: 1.5rem;
+    min-width: 100%;
+    min-height: 70vh;
+    display: flex;
 }
-.medium__section article picture{
-    width: 50%;
-    height:20%;
+
+.medium__section article>picture{
+    width: 60vw;
+    height:50vh;
+    display: flex;
+  
 }
 .medium__section  picture img{
     width: 100%;
+    height: 50%;
+    object-fit: cover;
 }
 .final{
     background-color: #777;
