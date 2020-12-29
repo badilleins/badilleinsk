@@ -35,6 +35,8 @@ html{
     display:flex;
     padding:1rem;
     flex-direction: column;
+    justify-content:center;
+    align-items: center;
 }
 .medium h2{
     align-items: center;
@@ -49,21 +51,33 @@ html{
     flex-direction:column;
     min-width: 100%;
     min-height: 50vh;
+    justify-content: center;
+    align-items: center;
+}
+.medium__h2:hover {
+    color: #080;
 }
 .medium__section > article {
     background-color: #540;
     color: #000;
     font-size: 1.5rem;
-    min-width: 100%;
+    width: 100%;
     min-height: 70vh;
     display: flex;
+    justify-content: center;
+   flex-direction: row;
 }
-
+.medium__section article span{
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
 .medium__section article>picture{
-    width: 60vw;
+    width: 40%;
     height:50vh;
     display: flex;
-  
+
 }
 .medium__section  picture img{
     width: 100%;
