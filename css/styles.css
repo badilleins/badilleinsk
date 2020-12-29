@@ -10,7 +10,7 @@ html{
 .begin{
     background-color: #333;
     color:#080;
-    min-width:100vw;
+    min-width:100%;
     min-height:20vh;
     justify-content: center;
     text-align: center;
@@ -29,7 +29,7 @@ text-shadow: 1px 2px 2px #0d0;
 .medium{
     background-color: #000;
     color: #ad5;
-    min-width:100vw;
+    min-width:100%;
     min-height: 70vh;
 }
 .medium h2{
@@ -47,7 +47,27 @@ text-shadow: 1px 2px 2px #0d0;
 }
 .final{
     background-color: #777;
-    min-width: 100vw;
-    min-height: 15vh;
+    min-width: 100%;
+    min-height: 10vh;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end
 }
-
+.final ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+.final__1 li{
+    padding:0 1em 0 0;
+    font-size: 2em;  
+}
+.final__2{
+    display: flex;
+    
+}
+.final__2  button{
+    margin:.3em 1.1em;
+    font-size: 3em;
+}
