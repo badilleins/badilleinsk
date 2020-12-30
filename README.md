@@ -12,7 +12,7 @@ ___
 - **CSS** 
 - **Git** 
 - **GitHub** 
-
+___
 ### What will you find in this repository?
 
 You will find proyects about a lot of things that I made until now. I used concepts about animation, methodologies like *BEM*, and patterns like *layout shifter*, also properties on CSS like *flex, grid* and much more.
