@@ -8,10 +8,10 @@
 Hi mate, I'm Stalin Badillo I'm a software development and an eternal student .I put my works and experiments to your scope .Here you will find many projects and knowledges that are mine.You can look all the that you want.
 ___
 ### What technologies I dominate?
-- **HTML** :html5:
-- **CSS** :css:
-- **Git** :git:
-- **GitHub** :github: 
+- **HTML** 
+- **CSS** 
+- **Git** 
+- **GitHub** 
 
 ### What will you find in this repository?
 
