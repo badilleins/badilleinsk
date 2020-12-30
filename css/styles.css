@@ -72,15 +72,16 @@ html{
     width: 100%;
     height: 100%;
 }
-.medium__section article>picture{
-    width: 40%;
+
+.medium__section article picture{
+    width: 60vw;
     height:50vh;
     display: flex;
 
 }
-.medium__section  picture img{
+.medium__section picture img{
     width: 100%;
-    height: 50%;
+    height: 100%;
     object-fit: cover;
 }
 .final{
