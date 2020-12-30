@@ -31,10 +31,14 @@ html{
     background-color: #000;
     color: #ad5;
     min-width:100%;
+<<<<<<< HEAD
     min-height:70vh;
     display:flex;
     padding:1rem;
     flex-direction: column;
+=======
+    min-height: 70vh;
+>>>>>>> 0428de1b4a8bed29676422026a6a91141b9619a5
 }
 .medium h2{
     align-items: center;
@@ -73,7 +77,31 @@ html{
 .final{
     background-color: #777;
     min-width: 100%;
+<<<<<<< HEAD
     min-height: 15vh;
     display: flex;
+=======
+    min-height: 10vh;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end
 }
-
+.final ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+.final__1 li{
+    padding:0 1em 0 0;
+    font-size: 2em;  
+}
+.final__2{
+    display: flex;
+    
+}
+.final__2  button{
+    margin:.3em 1.1em;
+    font-size: 3em;
+>>>>>>> 0428de1b4a8bed29676422026a6a91141b9619a5
+}
