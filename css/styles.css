@@ -31,11 +31,10 @@ html{
     background-color: #000;
     color: #ad5;
     min-width:100%;
-    min-height:70vh;
+    min-height: 70vh;
     display:flex;
-    padding:1rem;
     flex-direction: column;
-    justify-content:center;
+    padding:1rem;
     align-items: center;
 }
 .medium h2{
