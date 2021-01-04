@@ -63,7 +63,8 @@ html{
     min-height: 70vh;
     display: flex;
     justify-content: center;
-   flex-direction: row;
+    flex-direction: column;
+    padding: .5rem;
 }
 .medium__section article span{
     align-items: center;
@@ -73,15 +74,15 @@ html{
 }
 
 .medium__section article picture{
-    width: 60vw;
-    height:50vh;
+    width: 100%;
     display: flex;
-
+    flex-direction:column;
+    align-items: center;
 }
 .medium__section picture img{
     width: 100%;
-    height: 100%;
-    object-fit: cover;
+    object-fit: contain;
+    padding: .5rem;
 }
 .final{
     background-color: #777;
@@ -108,4 +109,4 @@ html{
 .final__2  button{
     margin:.3em 1.1em;
     font-size: 3em;
-}
+} 
