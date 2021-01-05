@@ -73,7 +73,7 @@ html{
 }
 
 .medium__section article picture{
-    width: 100%;
+    width: 95%;
     display: flex;
     flex-direction:column;
     align-items: center;
