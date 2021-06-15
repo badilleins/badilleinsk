@@ -12,6 +12,8 @@ ___
 - **CSS** 
 - **Git** 
 - **GitHub** 
+- **SASS**
+- **Javascript** 
 ___
 ### What will you find in this repository?
 
